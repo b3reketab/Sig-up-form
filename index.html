@@ -10,8 +10,8 @@
     <div class="header">
         <p>This is not a real online sevice! You know you need something
             like this in your life to help you realize your deepest dreams.
-            <br>Sign up now to get started.
         </p>
+        <p>Sign up now to get started.</p>
         <p>You know you want to.</p>
     </div>
     <div class="content">
@@ -27,8 +27,8 @@
                     <input type="text" id="last_name">
                 </li>
                 <li>
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail">
+                    <label for="mail">Email*</label>
+                    <input type="email" id="mail" required>
                 </li>
                 <li>
                     <label for="phno">Phone Number</label>
@@ -36,11 +36,11 @@
                 </li>
                 <li>
                     <label for="pwd">Password*</label>
-                    <input type="password" id="pwd" min="4" required>
+                    <input type="password" id="pwd" min="4" max="12" required>
                 </li>
                 <li>
-                    <label for="cfpwd">Confirm Password</label>
-                    <input type="password" id="cfpwd">
+                    <label for="cfpwd">Confirm Password*</label>
+                    <input type="password" id="cfpwd" min="4" max="12" required>
                 </li>
             </ul>
         </form>

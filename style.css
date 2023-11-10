@@ -37,10 +37,6 @@ li {
     display: flex;
     flex-direction: column;
 }
-input {
-    height: 2em;
-    padding: 7px;
-}
 input[type="password"]:invalid {
     border: 1px solid red;
 }
@@ -78,8 +74,7 @@ button {
         justify-content: center;
     }
     ul {
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 1.8em 1.8em 1.8em;
+        width: 400px;
         gap: 20px;
     }
 }
